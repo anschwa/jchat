@@ -7,7 +7,7 @@ This version has been created to be run as a [Chrome App](https://developer.chro
 ![jchat screenshot](https://raw.githubusercontent.com/daschwa/jchat/master/screenshots/day3.png)
 
 # Installation
-Launch Google Chrome and navigate to the the [Extensions](chrome://extensions/) page, either located under `Tools > Extensions` or `Window > Extensions`.
+Launch Google Chrome and navigate to`chrome://extensions/`, either located under `Tools > Extensions` or `Window > Extensions`.
 To install the app, click on `Load unpacked extension…` and select the `jchat` directory in the file browser.
 
 Make sure you edit the `path/or/url/to/jchat` to correspond to your hosted files in the following places:
@@ -15,7 +15,7 @@ Make sure you edit the `path/or/url/to/jchat` to correspond to your hosted files
 - `manifest.json`
 - `chat.js`
 
-You should now be able to run jChat from either the [Extensions](chrome://extensions/) page or from [chrome://apps/](chrome://apps/)
+You should now be able to run jChat from either `chrome://extensions/` or from `chrome://apps/`
 
 
 # Notes
