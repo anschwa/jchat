@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "username": "Guest01",
+      "message": "hello world",
+      "color": "rgb(0, 0, 0)",
+      "time": "2014-05-10 00:00:01"
+    },
+    {
+      "user": "Guest02",
+      "color": "rgb(0, 0, 0)",
+      "text": "hello",
+      "time": "00:00:02 PM"
+    }
+  ]
+}

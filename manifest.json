@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "jChat",
+  "version": "1.1",
+  "minimum_chrome_version": "23",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["app.js"]
+    }
+  },
+  "permissions": [
+	  "path/or/url/to/jchat",
+      "another/path/or/url/to/jchat"
+  ]
+}

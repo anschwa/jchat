@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>JChat</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="lib/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="lib/jquery.transit.min.js"></script>
+        
+		<link href="styles/main.css" rel="stylesheet">
+		<script type="text/javascript" src="scripts/script.js"></script>
+		<script type="text/javascript" src="scripts/chat.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <section>
+                <div id="main_chat">
+                    <div id="msg_wrap" class="section-align">
+                        <div id="messages">
+                            <!--
+								<p class="chat_msg"><span class="username">Guest123:</span><span class="text">This is a sample message.</span><span class="stamp">1:25 PM</span></p>
+							-->
+                        </div>
+                    </div>
+                    <div id="sidebar" class="section-align">
+                        <header>
+                            <span id="title">jChat</span>
+                            <p>a simple chatroom powered by JSON and jQuery</p>
+                        </header>
+                        <div id="color_picker"></div>
+                        <div id="controls">
+                            <div id="font_size">
+                                <button id="plus" class="btn-style plusminus">+</button>
+                                <button id="minus" class="btn-style plusminus">-</button>    
+                            </div>
+                            <div id="themes">
+                                <button id="light" class="btn-style ldc">Light</button>
+                                <button id="dark" class="btn-style ldc">Dark</button>
+                            </div>
+                            <div id="options">
+                              <button id="clear" class="btn-style ldc">Clear Chat</button>  
+                            </div>
+                        </div>
+                        <!--<div class="picker"><div class="square"></div></div>-->
+                        <!--use js to create 6 squares in each picker and 6 pickers. Then style each square with a different color. (lots of for loops)-->
+                    </div>
+                </div>
+                <footer id="chat_foot">
+                    <form id="chat_form">
+                        <input type="text" name="usr" id="usr" maxlength="8" placeholder="Username" size="1" tabindex="1"/>
+                        <input type="text" id="msg" maxlength="140" tabindex="2">
+                        <input type="submit" name="send" id="send" class="btn-style" value="Send" tabindex="3"/>
+                    </form>
+                </footer>
+            </section>
+        </div>
+    </body>
+</html>
