@@ -4,7 +4,7 @@ jChat
 A simple chatroom powered by JSON and jQuery.
 This version has been created to be run as a [Chrome App](https://developer.chrome.com/apps/about_apps)
 
-![jchat screenshot](https://raw.github.com/daschwa/jchat/screenshots/day3.png)
+![jchat screenshot](https://raw.githubusercontent.com/daschwa/jchat/master/screenshots/day3.png)
 
 # Installation
 Launch Google Chrome and navigate to the the [Extensions](chrome://extensions/) page, either located under `Tools > Extensions` or `Window > Extensions`.
