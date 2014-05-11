@@ -25,4 +25,4 @@ You should now be able to run jChat from either `chrome://extensions/` or from `
 
 Author: Adam Schwartz
 
-Created: 2013-06-25 03:04:42
+jChat was created 2013-06-25.
