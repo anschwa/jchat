@@ -19,7 +19,7 @@ You should now be able to run jChat from either `chrome://extensions/` or from `
 
 
 # Notes
-`hosted_files` contains `chat.php` and `chat.json`, both of which need to be hosted on a webserver for the chatroom to function.
+`hosted_files` contains `chat.php` and `chat.json`, both of which need to be hosted on a webserver for the chatroom to function properly.
 
 [GitHub Page](https://github.com/daschwa/jchat)
 
